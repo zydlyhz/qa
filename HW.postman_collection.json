@@ -1,0 +1,654 @@
+{
+	"info": {
+		"_postman_id": "37cbd44b-29f3-4978-8d5d-d351c75aea09",
+		"name": "HW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "01",
+			"item": [
+				{
+					"name": "geoplugin.net",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.geoplugin.net/json.gp?ip=199.87.14.19",
+							"protocol": "http",
+							"host": [
+								"www",
+								"geoplugin",
+								"net"
+							],
+							"path": [
+								"json.gp"
+							],
+							"query": [
+								{
+									"key": "ip",
+									"value": "199.87.14.19"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Facebook",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://graph.facebook.com/v3.2/me?fields=name,friends&access_token=EAARQPnRAdwABAIZBWc7WQZBkY0U5vYkffan8ZB8l7Vu6GMiVbIYoLJbfRrCxgoxnxBrfkHHxZAnm3mKxSHGJFkJXNiHv6fpEPeXZCVRmN6mYUO4sELIqa9c3vfyqKN6bGSfOmGqwaPIAiOCvRoz6GfslKdqCTOAHMoWZAiJqxvDwZDZD\n",
+							"protocol": "https",
+							"host": [
+								"graph",
+								"facebook",
+								"com"
+							],
+							"path": [
+								"v3.2",
+								"me"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "name,friends"
+								},
+								{
+									"key": "access_token",
+									"value": "EAARQPnRAdwABAIZBWc7WQZBkY0U5vYkffan8ZB8l7Vu6GMiVbIYoLJbfRrCxgoxnxBrfkHHxZAnm3mKxSHGJFkJXNiHv6fpEPeXZCVRmN6mYUO4sELIqa9c3vfyqKN6bGSfOmGqwaPIAiOCvRoz6GfslKdqCTOAHMoWZAiJqxvDwZDZD\n"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "checkip.amazonaws.com",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://checkip.amazonaws.com",
+							"protocol": "http",
+							"host": [
+								"checkip",
+								"amazonaws",
+								"com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ecb",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+							"protocol": "https",
+							"host": [
+								"www",
+								"ecb",
+								"europa",
+								"eu"
+							],
+							"path": [
+								"stats",
+								"eurofxref",
+								"eurofxref-daily.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api.ipify.org",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://api.ipify.org",
+							"protocol": "http",
+							"host": [
+								"api",
+								"ipify",
+								"org"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trackip.net",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://trackip.net/ip?json",
+							"protocol": "http",
+							"host": [
+								"trackip",
+								"net"
+							],
+							"path": [
+								"ip"
+							],
+							"query": [
+								{
+									"key": "json",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "02",
+			"item": [
+				{
+					"name": "trackip.net Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/{{type}}",
+								"disabled": false
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}} /ip",
+							"host": [
+								"{{url}} "
+							],
+							"path": [
+								"ip"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "geoplugin.net Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "{{type}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/json.gp?ip={{ip}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"json.gp"
+							],
+							"query": [
+								{
+									"key": "ip",
+									"value": "{{ip}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api.ipify.org Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "{{type}}",
+								"disabled": false
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "checkip.amazonaws.com Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "{{type}}",
+								"disabled": false
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ecb Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "{{type}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2 - Runner",
+			"item": [
+				{
+					"name": "ECB 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c204773a-22e7-453e-a361-4fef6b58b14f",
+								"exec": [
+									"tests[\"Currency: USD\"] = responseBody.has(\"USD\");",
+									"tests[\"USD Rate: \"] = responseBody.has(\"1.1359\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "{{type}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ECB ",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "98b2b56a-fe94-4a9e-990f-75eaff2e9a73",
+								"exec": [
+									"tests[\"Currency: \" + data.currency] = responseBody.has(data.currency);",
+									"tests[\"Rate: \" + data.rate] = responseBody.has(data. rate);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "{{type}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "03",
+			"item": [
+				{
+					"name": "GET_QA",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/get",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_PNG",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "image/png",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/image/png",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"image",
+								"png"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_JPEG",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "image/{{format}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/image/{{format}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"image",
+								"{{format}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT_QA",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "QA=123"
+						},
+						"url": {
+							"raw": "{{url}}/put",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"put"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE_QA",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "QA=123\n"
+						},
+						"url": {
+							"raw": "{{url}}/delete",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_IP",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/{{type}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/ip",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"ip"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST_QA",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/{{type}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "QA=123\n"
+						},
+						"url": {
+							"raw": "{{url}}/post",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET_UserAgent",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/user-agent",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user-agent"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
